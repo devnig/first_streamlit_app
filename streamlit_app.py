@@ -79,6 +79,9 @@ if streamlit.button('Add afruit to the list'):
    streamlit.text(back_from_function)
 
 
+streamlit.header('bon appetit')
+   
+   
 streamlit.stop()
 
 streamlit.write('Thanks for adding', add_my_fruit)
